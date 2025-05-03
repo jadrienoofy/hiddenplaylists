@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <script src="feedback.js"></script>
+    <title>Atlantis | The Hidden Playlist</title>
+</head>
+<body>
+    <div class="button-cons">
+        <a href="index.html"><</a>
+    </div>
+    <div class="spotifyemb">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1Fid2jjqsHViMX6xNH70hE?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div><br>
+    <div class="textmain">
+        <div class="quote">
+            <h3>“I can't save us, my Atlantis, we fall. We built this town on shaky ground. I can't save us, my Atlantis, oh, no. We built it up to pull it down.”</h3>
+        </div>
+        <div class="message">
+            <h1>Message:</h1>
+        </div>
+        <div class="messagetext">
+            <h3>May mga bagay tayong binuo nang buong puso, akala natin tatagal akala natin matibay. Pero gaya ng Atlantis, unti-unting lumubog ang lahat ng meron tayo. Hindi dahil wala tayong pagmamahal, kundi dahil hindi natin alam kung paano panindigan ito sa gitna ng mga bagyo. Minsan iniisip ko, paano kung mas maaga kong nasabi ang totoo kong nararamdaman? Paano kung hindi tayo natakot? Siguro ngayon, hindi ganito ang wakas.</h3>
+        </div>
+    </div>
+    <div class="feedback-float" onclick="toggleFeedbackForm()">Feedback</div>
+    <div class="feedback-popup" id="feedbackForm">
+        <form action="https://formsubmit.co/aujsc.aguilar.jadrienroi@gmail.com" method="POST">
+            <h2>Leave Your Feedback</h2>
+            <textarea name="feedback" placeholder="Write your message..." required></textarea>
+
+            <!-- Optional customization -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_autoresponse" value="Salamat sa iyong feedback!">
+
+            <button type="submit">Submit</button>
+            <span class="close-btn" onclick="toggleFeedbackForm()">&times;</span>
+        </form>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 The Hidden Playlist. All rights reserved.</p>
+    </footer>
+</body>
+</html>

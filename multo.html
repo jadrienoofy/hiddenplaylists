@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="images/icon.webp" type="image/x-icon">
+    <script src="feedback.js"></script>
+    <title>Multo | The Hidden Playlist</title>
+</head>
+<body>
+    <div class="button-cons">
+        <a href="index.html"><</a>
+    </div>
+    <div class="spotifyemb">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4cBm8rv2B5BJWU2pDaHVbF?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div><br>
+    <div class="textmain">
+        <div class="quote">
+            <h3>“Minumulto na 'ko ng damdamin ko…”</h3>
+        </div>
+        <div class="message">
+            <h1>Message:</h1>
+        </div>
+        <div class="messagetext">
+            <h3>Gabi-gabi akong hinahabol ng mga alaala. Hindi ikaw ang problema kundi yung mga “paano kung” na iniwan mong nakabitin. Paano kung sinabi mo rin noon? Paano kung di ako natakot? Ngayon, multo na lang ang lahat. Pero kahit anino ka na lang ng nakaraan, ramdam pa rin kita sa bawat pagkakataong pilit akong masaya. Ginusto ko nang kalimutan, pero paano ko bibitawan ang isang damdaming hindi ko kailanman nahawakan?</h3>
+        </div>
+    </div>
+    <div class="feedback-float" onclick="toggleFeedbackForm()">Feedback</div>
+    <div class="feedback-popup" id="feedbackForm">
+        <form action="https://formsubmit.co/aujsc.aguilar.jadrienroi@gmail.com" method="POST">
+            <h2>Leave Your Feedback</h2>
+            <textarea name="feedback" placeholder="Write your message..." required></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_autoresponse" value="Salamat sa iyong feedback!">
+
+            <button type="submit">Submit</button>
+            <span class="close-btn" onclick="toggleFeedbackForm()">&times;</span>
+        </form>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 The Hidden Playlist. All rights reserved.</p>
+    </footer>
+</body>
+</html>

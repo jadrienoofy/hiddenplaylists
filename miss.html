@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="images/icon.webp" type="image/x-icon">
+    <script src="feedback.js"></script>
+    <title>Miss Miss | The Hidden Playlist</title>
+</head>
+<body>
+    <div class="button-cons">
+        <a href="index.html"><</a>
+    </div>
+    <div class="spotifyemb">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5mi8Oe95frx6LhvFioXE7t?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div><br>
+    <div class="textmain">
+        <div class="quote">
+            <h3>“Baby ikaw lang talaga, ang nami-miss ko sa tuwi-tuwina… At baby ako'y mag-aabang, at dadalhin ka sa nakaraan.”</h3>
+        </div>
+        <div class="message">
+            <h1>Message:</h1>
+        </div>
+        <div class="messagetext">
+            <h3>Sa bawat araw na lumilipas, ikaw pa rin ang hinahanap-hanap ng puso ko. Hindi ko na alam kung paulit-ulit lang ba akong umaasa sa wala, o baka naman umaabot sayo kahit kaunti ang bulong ng damdamin ko. Miss na miss na kita, pero sa panaginip na lang kita mahahawakan. Ang totoo? Kahit ilang beses ko nang sinubukang itago, wala pa ring pumalit sayo. Sa isip ko, paulit-ulit pa rin ang tanong: “Kumusta ka na?” At sa puso ko, paulit-ulit pa rin ang sagot: “Ikaw pa rin.”</h3>
+        </div>
+    </div>
+    <div class="feedback-float" onclick="toggleFeedbackForm()">Feedback</div>
+    <div class="feedback-popup" id="feedbackForm">
+        <form action="https://formsubmit.co/aujsc.aguilar.jadrienroi@gmail.com" method="POST">
+            <h2>Leave Your Feedback</h2>
+            <textarea name="feedback" placeholder="Write your message..." required></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_autoresponse" value="Salamat sa iyong feedback!">
+
+            <button type="submit">Submit</button>
+            <span class="close-btn" onclick="toggleFeedbackForm()">&times;</span>
+        </form>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 The Hidden Playlist. All rights reserved.</p>
+    </footer>
+</body>
+</html>

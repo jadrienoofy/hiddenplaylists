@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.webp" type="image/x-icon">
+    <script src="feedback.js"></script>
+    <title>The Hidden Playlist</title>
+</head>
+<body>
+    <div class="headertext">
+        <h1>The Hidden Playlist</h1>
+        <h4>2025</h4>
+    </div>
+    <div class="maincon">
+        <div class="card-con">
+            <div class="cards">
+                <div class="img">
+                    <img src="images/atlantis.jpg" alt="">
+                </div>
+                <div class="textcon">
+                    <div class="songtitle">
+                        <h1>Atlantis</h1>
+                    </div>
+                    <div class="by">
+                        <h3>By</h3>
+                    </div>
+                    <div class="songartist" style="margin-right: 12px;">
+                        <h1>Seafret</h1>
+                    </div>
+                </div>
+                <div class="button-con">
+					<a href="atlantis.html">Read Message</a>
+				</div>
+            </div> 
+            <div class="cards">
+                <div class="img">
+                    <img src="images/decave.jpg" alt="">
+                </div>
+                <div class="textcons">
+                    <div class="songtitle" style="font-size: 18px;">
+                        <h1>Kung 'Di Rin Lang Ikaw</h1>
+                    </div>
+                    <div class="by">
+                        <h3>By</h3>
+                    </div>
+                    <div class="songartist" style="margin-right: 12px; margin-top: 34px;">
+                        <h1>December Avenue</h1>
+                    </div>
+                </div>
+                <div class="button-con" style="margin-top: -3px;">
+					<a href="decave.html">Read Message</a>
+				</div>
+            </div> 
+            <div class="cards">
+                <div class="img">
+                    <img src="images/saan.jpg" alt="">
+                </div>
+                <div class="textcon" style="margin-top: -4px;">
+                    <div class="songtitle">
+                        <h1>Saan?</h1>
+                    </div>
+                    <div class="by">
+                        <h3>By</h3>
+                    </div>
+                    <div class="songartist" style="margin-right: 12px;">
+                        <h1>Maki</h1>
+                    </div>
+                </div>
+                <div class="button-con">
+					<a href="saan.html">Read Message</a>
+				</div>
+            </div>
+            </div>
+            <div class="card-con2">
+                <div class="cards">
+                    <div class="img">
+                        <img src="images/multo.jpg" alt="">
+                    </div>
+                    <div class="textcon">
+                        <div class="songtitle">
+                            <h1>Multo</h1>
+                        </div>
+                        <div class="by">
+                            <h3>By</h3>
+                        </div>
+                        <div class="songartist" style="margin-right: 12px;">
+                            <h1>Cup of Joe</h1>
+                        </div>
+                    </div>
+                    <div class="button-con">
+                        <a href="multo.html">Read Message</a>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="img">
+                        <img src="images/miss.jpg" alt="">
+                    </div>
+                    <div class="textcon">
+                        <div class="songtitle">
+                            <h1>Miss Miss</h1>
+                        </div>
+                        <div class="by">
+                            <h3>By</h3>
+                        </div>
+                        <div class="songartist" style="margin-right: 12px;">
+                            <h1>Rob Deniel</h1>
+                        </div>
+                    </div>
+                    <div class="button-con">
+                        <a href="miss.html">Read Message</a>
+                    </div>
+                </div> 
+                <div class="cards">
+                    <div class="img">
+                        <img src="images/thenight.webp" alt="">
+                    </div>
+                    <div class="textcon">
+                        <div class="songtitle">
+                            <h1>The Night We Met</h1>
+                        </div>
+                        <div class="by">
+                            <h3>By</h3>
+                        </div>
+                        <div class="songartist" style="margin-right: 12px;">
+                            <h1>Lord Huron</h1>
+                        </div>
+                    </div>
+                    <div class="button-con">
+                        <a href="night.html">Read Message</a>
+                    </div>
+                </div> 
+        </div>
+        </div>
+    </div>
+    <div class="feedback-float" onclick="toggleFeedbackForm()">Feedback</div>
+    <div class="feedback-popup" id="feedbackForm">
+        <form action="https://formsubmit.co/aujsc.aguilar.jadrienroi@gmail.com" method="POST">
+            <h2>Leave Your Feedback</h2>
+            <textarea name="feedback" placeholder="Write your message..." required></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_autoresponse" value="Salamat sa iyong feedback!">
+
+            <button type="submit">Submit</button>
+            <span class="close-btn" onclick="toggleFeedbackForm()">&times;</span>
+        </form>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 The Hidden Playlist. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
